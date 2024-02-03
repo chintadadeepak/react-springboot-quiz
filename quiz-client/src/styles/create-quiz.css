@@ -1,0 +1,40 @@
+/* CreateQuiz component styles */
+div {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+input,
+select {
+    margin-top: 2px;
+    outline: none;
+    padding: 10px;
+    margin-bottom: 3px;
+    border: 1px solid #ddd;
+    border-radius: 4px;     
+}
+
+select {
+    appearance: none;
+}
+
+input[type="submit"] {
+    background-color: #3498db;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    padding: 10px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+input[type="submit"]:hover {
+    background-color: #2980b9;
+}

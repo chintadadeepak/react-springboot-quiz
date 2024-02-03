@@ -1,0 +1,57 @@
+/* PlayQuiz component styles */
+.play-quiz {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.play-quiz_title {
+    font-size: 2rem;
+    color: #3498db;
+    margin-bottom: 20px;
+}
+
+/* Question card styles */
+.play-quiz_question-card {
+    border: 1px solid #ddd;
+        border-radius: 8px;
+        padding: 15px;
+        margin-bottom: 20px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        transition: box-shadow 0.3s ease-in-out;
+}
+
+.play-quiz_question-title {
+    font-size: 1.5rem;
+    color: #333;
+}
+
+.play-quiz_option {
+    margin: 8px 0;
+}
+
+.play-quiz_answer-input {
+    padding: 10px;
+    width: 80%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.play-quiz__question-card:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.play-quiz_get-score-button {
+    padding: 10px 15px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.play-quiz_get-score-button:hover {
+    background-color: #2980b9;
+}
